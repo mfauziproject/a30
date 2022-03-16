@@ -1,0 +1,674 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/*-----------------------Header Start-----------------------*/
+#top-header {
+  padding: 200px 0 100px 0;
+  background-image: url(https://i.ibb.co/frMP0PH/univ.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height: 600px;
+}
+
+.top-header h1 {
+  font-size: 45px;
+
+  letter-spacing: 2px;
+  margin: 30px 0;
+}
+
+.top-header p {
+  margin-bottom: 3px;
+}
+.hr {
+  border-top: 2px solid #e89a24;
+  color: #e89a24;
+  text-align: center;
+  margin-left: 0;
+}
+.garis {
+  width: 150px;
+  border-top: 2px solid #e89a24;
+  color: #e89a24;
+  margin-top: 0;
+}
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-header p {
+  margin: 10px 0;
+}
+
+.oren {
+  background-color: #df921f;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #e89a24;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  padding-top: 15px;
+  height: 100px;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 10px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: #161616;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  color: #e89a24;
+}
+/*-----------------------Header End-----------------------*/
+
+/*-----------------------About Start-----------------------*/
+#about-wrapper {
+  padding-top: 70px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f9f9f9;
+  text-align: left;
+}
+.about-section {
+  display: flex;
+  padding-top: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: left;
+  background-color: #f9f9f9;
+}
+.about {
+  flex: auto;
+  width: 50%;
+  border-radius: 5px;
+  margin: 0px 10px;
+}
+
+.heading-about {
+  margin-left: 5%;
+}
+.heading-about h2 {
+  color: #003e5b;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "roboto";
+  margin-bottom: 0px;
+}
+.heading-about hr {
+  border-top: 2px solid #e89a24;
+  color: #e89a24;
+  text-align: left;
+  margin-left: 0;
+  width: 30%;
+}
+.about-img img {
+  width: 90%;
+  margin: 0 10%;
+  /* padding-top: 5%; */
+}
+.about-contents {
+  width: 95%;
+  display: inline-block;
+  padding: 0 5% 5% 5%;
+}
+.about-contents p {
+  font-size: 16px;
+  text-align: justify;
+  font-family: "Poppins";
+  margin-bottom: 20px;
+}
+
+.more-about {
+  /* padding: 5% 10%; */
+  background-color: #df921f;
+  cursor: pointer;
+  color: white;
+  font-family: "Poppins";
+  border-radius: 10px;
+}
+.more-about:hover {
+  /* padding: 5% 10%; */
+  background-color: #e89a24;
+}
+/*-----------------------About End-----------------------*/
+
+/*-----------------------News Start-----------------------*/
+.news-wrapper {
+  padding-top: 30px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: white;
+  text-align: center;
+}
+
+.news {
+  flex: auto;
+  width: 100%;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  margin: 0px 10px;
+  box-shadow: 0 1px 10px rgba(189, 189, 189, 0.034),
+    0 1px 10px rgba(207, 207, 207, 0.048), 0 1px 10px rgba(182, 182, 182, 0.06),
+    0 1px 17.9px rgba(212, 212, 212, 0.072),
+    0 1px 33.4px rgba(190, 190, 190, 0.086),
+    0 1px 80px rgba(180, 180, 180, 0.12);
+}
+
+.news-section {
+  display: flex;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: left;
+  background-color: white;
+}
+.heading-news h2 {
+  padding-top: 35px;
+  color: #003e5b;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "Roboto";
+  margin-bottom: 0px;
+}
+.heading-news hr {
+  border-top: 2px solid #e89a24;
+  width: 120px;
+  color: #e89a24;
+}
+.news-img img {
+  width: 100%;
+}
+.tag-list {
+  display: flex;
+  list-style-type: none;
+  padding: 0 5%;
+  margin: 16px 0;
+}
+.tag-list li {
+  background-color: #e89a24;
+  margin-right: 15px;
+  font-size: 14px;
+  padding: 3px 15px;
+  color: white;
+}
+.news-section {
+  padding: 5% 0;
+}
+.news-contents {
+  width: 100%;
+  display: inline-block;
+  padding: 0 5% 5% 5%;
+}
+.news-contents h4 {
+  font-size: 18px;
+  font-family: "Roboto";
+  margin: 16px 0;
+}
+.news-contents p {
+  font-size: 12px;
+  color: #b3aeb5;
+  text-align: justify;
+  font-family: "Poppins";
+  margin: 12px 0;
+}
+
+.news-contents a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  color: #003e5b;
+  font-family: "Roboto";
+}
+.news-contents a:hover {
+  color: #044f72;
+}
+.more-news {
+  padding: 15px 40px;
+  background-color: #df921f;
+  cursor: pointer;
+  color: white;
+  font-family: "Poppins";
+  border-radius: 10px;
+}
+.more-news:hover {
+  padding: 15px 40px;
+  background-color: #e89a24;
+}
+/*-----------------------News End-----------------------*/
+
+/*-----------------------Statistik Start-----------------------*/
+.overlay {
+  float: left;
+  /* margin: 5px; */
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.overlay h3 {
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+#statistik-wrapper {
+  background: url(img/statistik.jpg) no-repeat 0, 0;
+  height: 220px;
+  width: 100%;
+  position: relative;
+}
+.statistik-wrapper:after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: rgba(0, 62, 91, 0.8);
+}
+.col-3 {
+  width: 25%;
+  float: left;
+}
+.statistik-item {
+  position: relative;
+  overflow: visible;
+  text-align: center;
+  z-index: 1;
+  margin: 40px 100px;
+  text-align: center;
+}
+.statistik-icon img {
+  width: 85px;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+}
+.statistik-item h3 {
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  margin: 8px 0 2px;
+}
+.statistik-item p {
+  margin: 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+/*-----------------------Statistik End-----------------------*/
+
+/*-----------------------Akademik Start-----------------------*/
+.akademik-wrapper {
+  /* margin-top: 50px; */
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: whitesmoke;
+  text-align: left;
+}
+.akademik-section {
+  display: flex;
+  padding-top: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: left;
+  background-color: whitesmoke;
+}
+.akademik {
+  flex: auto;
+  width: 50%;
+  border-radius: 5px;
+  margin: 0px 10px;
+}
+
+.heading-akademik {
+  margin-left: 5%;
+}
+.heading-akademik h2 {
+  color: #003e5b;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "roboto";
+  margin-bottom: 0px;
+}
+.heading-akademik hr {
+  border-top: 2px solid #e89a24;
+  text-align: left;
+  margin-left: 0;
+  width: 30%;
+  color: #e89a24;
+}
+.akademik-img img {
+  width: 90%;
+  margin: 0 10%;
+  padding-top: 5%;
+}
+.akademik-contents {
+  width: 100%;
+  display: inline-block;
+  padding: 0 5% 5% 5%;
+}
+.akademik-contents p {
+  font-size: 16px;
+  text-align: justify;
+  font-family: "Poppins";
+  margin-bottom: 20px;
+}
+.riset {
+  color: #003e5b;
+  font-weight: 550;
+}
+.more-akademik {
+  background-color: #df921f;
+  cursor: pointer;
+  color: white;
+  font-family: "Poppins";
+  border-radius: 10px;
+}
+.more-akademik:hover {
+  background-color: #e89a24;
+}
+
+/*-----------------------Akademik End-----------------------*/
+
+/*-----------------------Beasiswa dan Pengumuman Start-----------------------*/
+
+#container2 {
+  background-color: #f8f8f8;
+  padding-bottom: 1px;
+}
+
+#container1 {
+  margin-top: 0;
+}
+
+.grid {
+  background-color: #fff;
+  margin: 60px 90px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  align-items: center;
+}
+.abu {
+  background-color: #f6f6f6;
+}
+
+.grid > article {
+  background: white;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  width: 360px;
+  transition: transform 0.3s;
+  box-shadow: 0 1px 10px rgba(189, 189, 189, 0.034),
+    0 1px 10px rgba(207, 207, 207, 0.048), 0 1px 10px rgba(182, 182, 182, 0.06),
+    0 1px 17.9px rgba(212, 212, 212, 0.072),
+    0 1px 33.4px rgba(190, 190, 190, 0.086),
+    0 1px 80px rgba(180, 180, 180, 0.12);
+}
+
+.grid > article img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.container2 h2 {
+  color: #003e5b;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "roboto";
+  text-align: center;
+  margin-bottom: 0px;
+  padding-top: 50px;
+}
+.container1 h2 {
+  color: #003e5b;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "roboto";
+  text-align: center;
+  margin-bottom: 0px;
+  padding-top: 50px;
+}
+.title_beasiswa hr {
+  border-top: 2px solid #e89a24;
+  color: #e89a24;
+  width: 9%;
+}
+
+.text {
+  font-size: 13px;
+  font-family: Poppins;
+  margin: 0 6px 6px 6px;
+  text-align: justify;
+}
+.text h4 {
+  font-size: 16px;
+  margin: 17px 0;
+}
+.text p {
+  font-size: 14px;
+  padding-top: 0;
+  color: #a9a9a9;
+  margin: 13px 0;
+}
+
+.grid a {
+  color: #003e5b;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 11px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.grid ul {
+  list-style: none;
+  color: #003e5b;
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.grid li {
+  padding: 0 4px;
+}
+
+.flex-list {
+  padding: 0;
+  display: flex;
+}
+
+/*-----------------------Beasiswa dan Pengumuman End-----------------------*/
+
+/*-----------------------FAQ dan Kontak Start-----------------------*/
+
+#faq-wrapper {
+  width: 100%;
+  background-color: #003e5b;
+  height: 110px;
+  text-align: center;
+  border-bottom: 2px solid #e89a24;
+}
+.faq {
+  width: 100%;
+  text-align: center;
+}
+.faq p {
+  font-size: 18px;
+  font-family: poppins;
+  font-weight: normal;
+  color: #fff;
+  margin-top: 0;
+}
+
+.more-faq {
+  font-size: 16px;
+  margin-left: 20px;
+  margin-top: 35px;
+  padding: 8px 20px;
+  background-color: #df921f;
+  color: white;
+  display: inline-block;
+  opacity: 1;
+  border-radius: 10px;
+}
+.more-faq:hover {
+  background-color: #e89a24;
+}
+.contact-wrapper {
+  width: 100%;
+  color: #fff;
+  background-color: #003e5b;
+  height: 190px;
+  padding-top: 30px;
+}
+.contact-left {
+  float: left;
+  width: 50%;
+}
+.contact-left img {
+  width: 200px;
+}
+.contact-right {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+footer {
+  bottom: 0;
+  width: 100%;
+  background-color: #e89a24;
+  height: 60px;
+  text-align: center;
+  color: #fff;
+}
+footer h5 {
+  margin: 0 0;
+  padding: 20px 0;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+/*-----------------------FAQ dan Kontak End-----------------------*/
+
+/* Ketik code Anda dibawah */
+span.menu-icon {
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+span img {
+  width: 25px;
+}
+.element {
+  float: left;
+  height: 20px;
+  width: 20px;
+  margin: 0 auto;
+  background-color: red;
+  animation-name: stretch;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(0.3);
+    background-color: red;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: orange;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: yellow;
+  }
+}

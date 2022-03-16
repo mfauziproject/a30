@@ -1,0 +1,325 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  /*-----------------------Header Start-----------------------*/
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  .heading h2 {
+    font-size: 20px;
+  }
+  /*-----------------------Header End-----------------------*/
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  /*-----------------------About Start-----------------------*/
+  .about {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  .about-section {
+    flex-wrap: wrap;
+  }
+  .about-img img {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .about-contents {
+    width: 100%;
+  }
+  .about-contents p {
+    font-size: 15px;
+  }
+
+  .heading-about h2 {
+    font-size: 20px;
+  }
+  .heading-about hr {
+    width: 15%;
+  }
+  .more-about {
+    padding: 2% 6%;
+  }
+  /*-----------------------About End-----------------------*/
+
+  /*-----------------------News Start-----------------------*/
+  .news {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  .news-section {
+    flex-wrap: wrap;
+  }
+  .news-contents {
+    width: 100%;
+  }
+
+  .news-contents p {
+    font-size: 15px;
+  }
+
+  .heading-news h2 {
+    font-size: 20px;
+  }
+  .more-news {
+    margin-top: 0;
+  }
+  /*-----------------------News End-----------------------*/
+
+  /*-----------------------Statistik dan Akademik Start-----------------------*/
+  .col-3 {
+    width: 50%;
+  }
+  .statistik-icon {
+    width: 50%;
+  }
+  .statistik-wrapper {
+    height: 450px;
+  }
+
+  .akademik {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  .akademik-section {
+    flex-wrap: wrap;
+  }
+  .akademik-img img {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .akademik-contents {
+    width: 100%;
+  }
+  .akademik-contents p {
+    font-size: 15px;
+  }
+
+  .heading-akademik h2 {
+    font-size: 20px;
+  }
+  .heading-akademik hr {
+    width: 15%;
+  }
+  .more-akademik {
+    padding: 2% 6%;
+  }
+
+  /*-----------------------Statistik dan Akademik End-----------------------*/
+
+  /*-----------------------Beasiswa dan Pengumuman Start-----------------------*/
+  .grid {
+    width: 50%;
+    grid-template-columns: repeat(2, 2fr);
+  }
+
+  /*-----------------------Beasiswa dan Pengumuman End-----------------------*/
+
+  /*-----------------------FAQ dan Kontak Start-----------------------*/
+  .faq p {
+    font-size: 16px;
+  }
+  .contact-wrapper {
+    height: 270px;
+  }
+  .contact-left {
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+  }
+  .contact-left img {
+    width: 150px;
+  }
+  .contact-right {
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+  }
+  .contact-right ul {
+    padding-left: 0;
+    padding-bottom: 3px;
+  }
+  .contact-right li {
+    padding-bottom: 3px;
+  }
+
+  /*-----------------------FAQ dan Kontak End-----------------------*/
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  /*-----------------------Header Start-----------------------*/
+  .header-right {
+    display: none;
+  }
+
+  span.menu-icon {
+    display: block;
+  }
+  .top-header {
+    height: 700px;
+  }
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+  }
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+  }
+  .btn {
+    width: 100%;
+  }
+  /*-----------------------Header End-----------------------*/
+
+  /*-----------------------About Start-----------------------*/
+  .about-section {
+    flex-wrap: wrap;
+  }
+  .about {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .about-img img {
+    width: 100%;
+    margin: 0;
+  }
+  .about-contents {
+    width: 100%;
+  }
+  .about-contents p {
+    font-size: 14px;
+  }
+
+  .heading-about h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .heading-about hr {
+    text-align: center;
+    margin-left: 33%;
+    width: 33%;
+  }
+
+  .more-about {
+    display: block;
+  }
+  /*-----------------------About End-----------------------*/
+
+  /*-----------------------News Start-----------------------*/
+
+  .news-section {
+    flex-wrap: wrap;
+  }
+  .news {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .news-contents p {
+    font-size: 12px;
+  }
+
+  .heading-news h2 {
+    font-size: 16px;
+  }
+
+  .more-news {
+    display: block;
+  }
+  /*-----------------------News End-----------------------*/
+
+  /*-----------------------Statistik dan Akademik Start-----------------------*/
+  .col-3 {
+    width: 100%;
+  }
+  .statistik-icon {
+    width: 100%;
+  }
+  #statistik-wrapper {
+    height: 850px;
+    padding-top: 50px;
+  }
+  .statistik-item {
+    padding-top: 20px;
+    margin-top: 0;
+  }
+
+  .akademik {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .akademik-img img {
+    width: 100%;
+    margin: 0;
+  }
+  .akademik-contents {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .akademik-contents p {
+    font-size: 14px;
+  }
+
+  .heading-akademik h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .heading-akademik hr {
+    text-align: center;
+    margin-left: 33%;
+    width: 33%;
+  }
+
+  .more-akademik {
+    /* margin-top: 15%; */
+    display: block;
+  }
+  /*-----------------------Statistik dan Akademik End-----------------------*/
+
+  /*-----------------------Beasiswa dan Pengumuman Start-----------------------*/
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /*-----------------------Beasiswa dan Pengumuman End-----------------------*/
+
+  /*-----------------------FAQ dan Kontak Start-----------------------*/
+  .faq p {
+    font-size: 16px;
+    padding-top: 12px;
+  }
+  .more-faq {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 8px 16px;
+  }
+  .contact-wrapper {
+    height: 300px;
+  }
+  .contact-left {
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+  }
+  .contact-left img {
+    width: 150px;
+  }
+  .contact-right {
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+  }
+  .contact-right ul {
+    padding-left: 0;
+    padding-bottom: 3px;
+  }
+  .contact-right li {
+    padding-bottom: 3px;
+  }
+  /*-----------------------FAQ dan Kontak End-----------------------*/
+}
